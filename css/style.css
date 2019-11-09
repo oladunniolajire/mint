@@ -1,0 +1,295 @@
+/*
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    perspective: 1500px;
+
+}
+
+#sidebar {
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 100vh;
+
+    transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
+    transform-origin: bottom-left;
+    height: 100%;
+}
+
+.wrapper .navbaar {
+    padding: 30px 0;
+}
+
+.wrapper .navbar-default {
+    background-color: transparent;
+    border: none;
+}
+
+
+
+p {
+    margin: 0;
+}
+
+
+.wrapper .navbar-toggle {
+    background-color: #ffffff;
+}
+
+.wrapper .nav-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+*/
+
+/*
+@media only screen and (max-width: 768px) {
+    .wrapper .navbar-collapse.in {
+        background-color: rgba(0, 255, 255);
+        color: #fff;
+
+    }
+}
+
+@media only screen and (max-width: 533px) {
+    #sidebar {
+        margin-left: -220px;
+        background-color: none;
+    }
+
+}
+*/
+.modal-content {
+    border: 1px solid #66CDAA;
+    box-sizing: border-box;
+    max-height: 100%;
+    overflow-y: scroll;
+
+}
+
+.modal-md {
+    max-height: 50%;
+}
+
+.modal {
+    max-height: 100vh;
+
+}
+
+#myModal.modal-body {
+    max-height: 800px;
+
+}
+
+.modal-dialog {
+    height: 90%;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+
+
+.sidebar {
+    height: 100%;
+    width: 70%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #66CDAA;
+    overflow-x: hidden;
+    padding-top: 15%;
+    transition: .5s;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+h3 {
+    font-size: 45px;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 100px;
+}
+
+
+.openbtn {
+    font-size:10px;
+    cursor: pointer;
+    background-color: #66CDAA;
+    border-radius: 4px;
+    padding: 9px 10px;
+    border: 2px solid #66CDAA;
+    float: left;
+    margin-top: 1.5%;
+
+}
+.nav{
+    color:#66CDAA;
+}
+.navbar-default .navbar-nav li a{
+    color: #66CDAA;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #000;
+}
+
+.btn-primary {
+    padding-left: 20%;
+    padding-right: 20%;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+
+#main {
+    transition: margin-left 1.5s;
+    padding: 20px;
+    margin: auto !important;
+}
+
+
+
+@media screen and (max-height:450px) {
+    .sidebar {
+        padding-top: 70px;
+        width: 20%;
+    }
+}
+
+
+.content {
+    padding-right: 30%;
+}
+
+h2 {
+    text-align: center;
+    color: #66CDAA;
+}
+
+form {
+    align-items: center;
+    margin: auto !important;
+    width: 50%;
+
+    height: 48px;
+
+
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+body {
+    max-width: 960px;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    max-width: 250px;
+}
+
+.btn {
+    color: #fff;
+    background-color: #66CDAA;
+    overflow: hidden;
+
+}
+.container{
+    max-width: 960px;
+    
+}
+
+.btn-default {
+    padding-left: 20%;
+    padding-right: 20%;
+    border-radius: 25px;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+@media (max-width:568px) {
+    .sidebar {
+        width: 50%;
+        height: 100%;
+    }
+
+    h3 {
+        text-align: center;
+    }
+}
+
+@media(min-width:1024px) {
+    .btn-default {
+        padding-left: 100%;
+        padding-right: 100%;
+        border-radius: 25px;
+        margin-left: 150%;
+    }
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #66CDAA;
+}
+.navbar-default{
+    background-color: #fff;
+    color: #fff;
+    
+}
+header{
+    
+    overflow: hidden;
+}
+.navbar{
+    border: 0;
+}
+/*
+@media (max-width:768px) {
+
+
+    #sidebar {
+        margin-left: -220px;
+    }*/
+
+/* nav {
+     background-color: #ffffff;
+     margin-left: -15rem;
+ }
+
+ .navbar-toggler-icon {
+     display: inline-block;
+     width: 1.5em;
+     height: 1.5em;
+     vertical-align: middle;
+
+ }
+ }
+
+ @media (max-width:533px) {
+
+
+     #sidebar {
+         margin-left: -140px;
+     }
+ }*/
